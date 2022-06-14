@@ -1,2 +1,14 @@
 <h1>Home#index</h1>
 <p>Find me in app/views/home/index.html.erb</p>
+
+<code>image_tag</code>
+<%= image_tag "svg/alert.svg", style: "height: 100px; color: green; background-color: red;" %>
+<%= image_tag "svg/youtube.svg", style: "height: 100px; color: green; background-color: red;" %>
+
+<code>svg_tag</code>
+<%= svg_tag "alert", style: "color: green; background-color: red; font-size: 40px;" %>
+<%= svg_tag "youtube", style: "color: green; background-color: red; font-size: 40px;" %>
+
+<code>inline_svg_tag</code>
+<%= inline_svg_tag "svg/alert", style: "color: green; background-color: red; font-size: 40px;" %>
+<%= inline_svg_tag "svg/youtube", style: "color: green; background-color: red; font-size: 40px;" %>
